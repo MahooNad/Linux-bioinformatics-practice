@@ -16,7 +16,42 @@
 **Purpose:** Shows **everything** in your home directory, including hidden files.  
 **My output:** A bunch of files, folders and configurations, plus the hidden files. 
 
-## Command 4: <pre>*bash* <br>cd ~/documents/NGS<br></pre>
-**Purpose:** Changes directory.
-**My output:** I am now in the folder I created for the training purpose, NGS.
+## Command 5: <pre>*bash* <br>cd ~/documents/NGS<br></pre>
+**Purpose:** Changes directory.  
+**My output:** I am now in the directory I had created for training purposes, NGS.
+
+## Command 6: <pre>*bash* <br>mkdir NGS_short_sequence<br></pre>
+**Purpose:** Creates a new directory.  
+**My output:** I created a directory named 'NGS_short_sequence'.
+
+#### Command 5: <pre>*bash* <br>cd ~/documents/NGS/NGS_short_sequence<br></pre>
+
+## Command 7: <pre>*bash* <br>touch readme.txt<br></pre>
+**Purpose:** Creates file. 
+**My output:** I created a file named 'readme.txt'.
+
+## Command 8: <pre>*bash* <br>nano readme.txt<br></pre>
+**Purpose:** Opens a simple txt editor in the terminal and allows me to write/edit notes in the readme.txt file.  
+**My output:** I added some guidelines in the 'readme.txt' file about the 'Lines and explanations.md' file. (Ctrl+ O + Enter > save)
+
+## Command 9: <pre>*bash* <br>cat readme.txt<br></pre>
+**Purpose:** This will print the contents of the file to your terminal. 
+**My output:** I can see all of the notes I added to readme.txt in the terminal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
