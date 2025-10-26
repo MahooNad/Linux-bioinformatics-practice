@@ -27,7 +27,7 @@
 #### Command 5: <pre>*bash* <br>cd ~/documents/NGS/NGS_short_sequence<br></pre>
 
 ## Command 7: <pre>*bash* <br>touch readme.txt<br></pre>
-**Purpose:** Creates file. 
+**Purpose:** Creates file.   
 **My output:** I created a file named 'readme.txt'.
 
 ## Command 8: <pre>*bash* <br>nano readme.txt<br></pre>
@@ -35,7 +35,7 @@
 **My output:** I added some guidelines in the 'readme.txt' file about the 'Lines and explanations.md' file. (Ctrl+ O + Enter > save)
 
 ## Command 9: <pre>*bash* <br>cat readme.txt<br></pre>
-**Purpose:** This will print the contents of the file to your terminal. 
+**Purpose:** This will print the contents of the file to your terminal.   
 **My output:** I can see all of the notes I added to readme.txt in the terminal.
 
 
