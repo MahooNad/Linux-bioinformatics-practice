@@ -1,3 +1,3 @@
 I am practicing bioinformatics, specifically NGS data processing here, and I record all the commands I am using so it is easier to go back to them in the future. 
 In the document written in Markdown, I follow a simple rule of order with numbering the commands, which is simple to follow. However, to make it make more sense here are some tips:
-1. If a command is used more than once, it will be mentioned with the first command number it was assigned to but with a smaller font size compared to the original command, and without the **Purpose** and **my output** parts.  
+1. If a command is used more than once, it will be mentioned with the first command number it was assigned to but with a smaller font size compared to the original command, and without the **Purpose** and *My output** explanations.  
