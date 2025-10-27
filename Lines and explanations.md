@@ -39,10 +39,12 @@
 **My output:** I can see all of the notes I added to readme.txt in the terminal.
 
 ## Command 10: <pre>*bash* <br>git add readme.txt<br></pre>
-**Purpose:** This will add the updates made to the readme.txt file to my GitHub profile.  
-**My output:** I can see the updates online. 
+**Purpose:** This will tell git that I wanna add the readme.txt file to my GitHub profile.  
+**My output:** -
 
-
+## Command 11: <pre>*bash* <br>git add readme.txt<br></pre>
+**Purpose:** This will tell git that I wanna add the readme.txt file to my GitHub profile.  
+**My output:** -
 
 
 
