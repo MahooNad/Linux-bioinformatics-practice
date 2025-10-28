@@ -42,9 +42,13 @@
 **Purpose:** This will tell git that I wanna add the readme.txt file to my GitHub profile.  
 **My output:** -
 
-## Command 11: <pre>*bash* <br>git add readme.txt<br></pre>
-**Purpose:** This will tell git that I wanna add the readme.txt file to my GitHub profile.  
+## Command 11: <pre>*bash* <br>git commit -m "Update readme.txt with new info"<br></pre>
+**Purpose:** This will save a snapshot of the staged changes with a message describing what I did.   
 **My output:** -
+
+## Command 12: <pre>*bash* <br>git push<br></pre>
+**Purpose:** Send my commits to Github.   
+**My output:** I see the readme.txt in my Github profile. 
 
 
 
