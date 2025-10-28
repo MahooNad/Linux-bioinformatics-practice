@@ -58,7 +58,27 @@
 **Purpose:** Send my commits to GitHub.     
 **My output:** Everything up-to-date.
 
+#### Command 6: <pre>*bash* <br>mkdir downloaded-data<br></pre>
 
+## Command 15: <pre>*bash* <br>clear<br></pre>
+**Purpose:** Clears the screen.   
+**My output:** I'm on the first line in the terminal.(Phew! Thanks god! It's clean now!)
+
+#### Command 5: <pre>*bash* <br>cd ~/documents/NGS/NGS_short_sequence/downloaded-data<br></pre>
+
+## Command 16: <pre>*bash* <br>which fastq-dump<br></pre>
+**Purpose:** Checks if I have the SRA toolkit installed.  
+**My output:** fastq-dump not found.
+
+## Command 17: <pre>*bash* <br>curl -O https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-mac64.tar.gz<br></pre>
+**Purpose:** Downloads the SRA Toolkit.  
+**My output:** -
+
+## Command 18: <pre>*bash* <br>tar -xvzf sratoolkit.current-mac64.tar.gz<br></pre>
+**Purpose:** Extracts the files.  
+**My output:** -
+
+#### Command 5: <pre>*bash* <br>cd sratoolkit.*/bin<br></pre>
 
 
 
