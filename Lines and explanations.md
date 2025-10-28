@@ -51,12 +51,12 @@
 **My output:** -
 
 ## Command 13: <pre>*bash* <br>git commit -m "Update readme.txt with new info"<br></pre>
-**Purpose:** This will save a snapshot of the staged changes with a message describing what I did.     
+**Purpose:** This will save a snapshot of the staged changes, accompanied by a message describing the changes made.     
 **My output:** -
 
 ## Command 14: <pre>*bash* <br>git push<br></pre>
 **Purpose:** Send my commits to GitHub.     
-**My output:** I see the readme.txt in my GitHub profile. 
+**My output:** Everything up-to-date.
 
 
 
