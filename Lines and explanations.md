@@ -75,16 +75,26 @@
 **My output:** -
 
 ## Command 18: <pre>*bash* <br>tar -xvzf sratoolkit.current-mac64.tar.gz<br></pre>
-**Purpose:** Extracts the files.  
+**Purpose:** Extracts (x) the file 'sratoolkit.current-mac64.tar.gz' (f), shows the file being extracted (v), and uses zip compression (z). 
 **My output:** -
 
 #### Command 5: <pre>*bash* <br>cd sratoolkit.*/bin<br></pre>
 
+## Command 19: <pre>*bash* <br>export PATH=$PATH:$(pwd)<br></pre>
+**Purpose:** Adds the current folder, sratoolkit.*/bin, to the PATHs I have in my system.    
+**My output:** -
 
+## Command 20: <pre>*bash* <br>echo 'export PATH=$PATH:~/sratoolkit.*/bin' >> ~/.zshrc source ~/.zshrc<br></pre>
+**Purpose:** This line makes the addition of the new PATH to the shell permanent, so I can always run commands like 'fasterq-dump' without the need to copy the full path. 
+**My output:** -
 
+## Command 21: <pre>*bash* <br>fasterq-dump --version<br></pre>
+**Purpose:** Confirms the fasterq-dump is installed.
+**My output:** fasterq-dump : 3.2.1
 
-
-
+## Command 22: <pre>*bash* <br>man tar<br></pre>
+**Purpose:** The man command gives me the full manual of a command, like 'tar' in this case. 
+**My output:** I can see the full manual. Exit with Q.
 
 
 
