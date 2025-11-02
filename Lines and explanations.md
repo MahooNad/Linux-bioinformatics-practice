@@ -96,6 +96,47 @@
 **Purpose:** The man command gives me the full manual of a command, like 'tar' in this case.   
 **My output:** I can see the full manual. Exit with Q.
 
+#### Command 5: <pre>*bash* <br>cd ~/documents/NGS/NGS_short_sequence/downloaded-data<br></pre>
+
+#### Command 6: <pre>*bash* <br>mkdir SRR<br></pre>
+
+#### Command 5: <pre>*bash* <br>cd SRR<br></pre>
+
+## Command 23: <pre>*bash* <br>fasterq-dump SRR35879980<br></pre>
+**Purpose:** When I have the accession number (like SRR35879980) of the desired read, this code downloads that fastq file for me. Fast!  
+**My output:** spots read      : 18,397
+reads read      : 36,794
+reads written   : 36,794
+
+## Command 24: <pre>*bash* <br>head -n 8 SRR35879980_1.fastq<br></pre>
+**Purpose:** Shows the first 8 lines of the SRR35879980_1.fastq file.  
+**My output:** @SRR35879980.1 VH00954:7:AAF2YK7M5:1:1101:19879:1625 length=51
+CTGACATTGGCATGTTGATTTTGCCATTTTGACTATACATGGAGATGACTT
++SRR35879980.1 VH00954:7:AAF2YK7M5:1:1101:19879:1625 length=51
+CCCCC;CCCCCC;CCCCCCCCCCCCCCCCCC;CCCCCCCCCCCC-CC;CCC
+@SRR35879980.2 VH00954:7:AAF2YK7M5:1:1101:28267:1947 length=51
+GCCCCCACACTGTGTCTGTGGTTATACTCTCTAAACATTTCAGTCACAAGC
++SRR35879980.2 VH00954:7:AAF2YK7M5:1:1101:28267:1947 length=51
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+## Command 25: <pre>*bash* <br>tail -n 8 SRR35879980_1.fastq<br></pre>
+**Purpose:** Shows the last 8 lines of the SRR35879980_1.fastq file.  
+**My output:** @SRR35879980.18396 VH00954:7:AAF2YK7M5:1:2611:45707:55845 length=51
+CGGGGCATTGATGGATCCCGCATTAGTGGAAGCGAGAACAAATGGTGATGT
++SRR35879980.18396 VH00954:7:AAF2YK7M5:1:2611:45707:55845 length=51
+CCCCCCCCCCCCCCCCCCCCCC;CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+@SRR35879980.18397 VH00954:7:AAF2YK7M5:1:2611:35576:55940 length=50
+CACGTGCCTGAAGTACAGAGAACCCATGTTGTTCAAGGTAGTGTAACCAT
++SRR35879980.18397 VH00954:7:AAF2YK7M5:1:2611:35576:55940 length=50
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+## Command 26: <pre>*bash* <br>expr $(wc -l < SRR35879980_1.fastq) / 4<br></pre>
+**Purpose:** This is an interesting command. Two embeded. 'expr' runs simple arithmetic or text. 'wc -l' counts the lines in the file given.   
+**My output:** 18397 - both SRR35879980_1.fastq and SRR35879980_2.fastq have the same number of reads.
+
+
+
+
 
 
 
