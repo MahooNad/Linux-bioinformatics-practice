@@ -134,6 +134,10 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 **Purpose:** This is an interesting command. Two embeded. 'expr' runs simple arithmetic or text. 'wc -l' counts the lines in the file given.   
 **My output:** 18397 - both SRR35879980_1.fastq and SRR35879980_2.fastq have the same number of reads.
 
+## Command 26: <pre>*bash* <br>for f in *.fastq; do; echo "$f has $(expr $(wc -l < $f) / 4) reads."; done<br></pre>
+**Purpose:** This loop counts the number of reads in all of the files in the directory.    
+**My output:** SRR35879980_1.fastq has 18397 reads.
+SRR35879980_2.fastq has 18397 reads.
 
 
 
