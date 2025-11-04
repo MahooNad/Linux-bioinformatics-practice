@@ -139,7 +139,23 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 **My output:** SRR35879980_1.fastq has 18397 reads.
 SRR35879980_2.fastq has 18397 reads.
 
+#### Command 5: <pre>*bash* <br>cd /Users/mahoo/documents/NGS/NGS_short_sequence/downloaded-data<br></pre>
 
+#### Command 6: <pre>*bash* <br>mkdir FastQC<br></pre>
+
+#### Command 5: <pre>*bash* <br>cd FastQC<br></pre>
+
+## Command 27: <pre>*bash* <br>conda --version<br></pre>
+**Purpose:** I wanna make sure I have conda installed. 
+**My output:** conda 25.7.0
+
+## Command 28: <pre>*bash* <br>conda install -c bioconda fastqc<br></pre>
+**Purpose:** Installs fastqc through conda.
+**My output:** I'm missing Java, so I have to run another code downloading Java to use fastqc.
+
+## Command 28: <pre>*bash* <br>conda install -c conda-forge openjdk<br></pre>
+**Purpose:** Installs Java.
+**My output:**
 
 
 
