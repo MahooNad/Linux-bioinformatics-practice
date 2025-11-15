@@ -150,10 +150,10 @@ SRR35879980_2.fastq has 18397 reads.
 **My output:** conda 25.7.0
 
 ## Command 28: <pre>*bash* <br>conda install -c bioconda fastqc<br></pre>
-**Purpose:** Installs fastqc through conda.
-**My output:** I'm missing Java, so I have to run another code downloading Java to use fastqc.
+**Purpose:** Installs FastQC through conda.
+**My output:** I'm missing Java, so I have to run another script to download Java so I can use fastqc.
 
-## Command 28: <pre>*bash* <br>conda install -c conda-forge openjdk<br></pre>
+## Command 29: <pre>*bash* <br>conda install -c conda-forge openjdk<br></pre>
 **Purpose:** Installs Java.
 **My output:**
 
